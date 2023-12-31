@@ -164,3 +164,4 @@ dataset/
 data_splitted/
 dataset_split/
 prep_dataset/
+*.zip

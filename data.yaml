@@ -1,10 +1,9 @@
 
 # Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
-path: ../dataset/dataset_split  # dataset root dir
-train: ../dataset/dataset_split/train  # train images (relative to 'path') 118287 images
-val: ../dataset/dataset_split/val  # val images (relative to 'path') 5000 images
-test: ../dataset/dataset_split/test  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
-
+path: ../dataset_split  # dataset root dir
+train: /train  # train images (relative to 'path') 118287 images
+val: /val 
+test: /test  
 # Classes
 names:
   0: person
