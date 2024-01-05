@@ -4,7 +4,7 @@ import cv2
 import numpy as np
 
 app = Flask(__name__)
-model = YOLO('../skin-cancer-detector/model/skin_cancer_v2.pt')
+model = YOLO('../skin-cancer-detector/model/skin_cancer_v3.pt')
 
 @app.route('/')
 def hello():

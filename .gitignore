@@ -165,3 +165,5 @@ data_splitted/
 dataset_split/
 prep_dataset/
 *.zip
+ISIC_dataset/
+runs/
